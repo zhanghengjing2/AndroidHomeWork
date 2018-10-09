@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SCOS</string>
+    <string name="title_activity_login_or_register">LoginOrRegister</string>
+</resources>
