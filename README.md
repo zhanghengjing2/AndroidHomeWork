@@ -1,1 +1,6 @@
 # AndroidHomeWork
+
+APKs文件夹存放各个版本的apk文件
+Documents文件夹存放实验报告
+MOOC文件夹存放慕课学习证明
+SCOS分别存放各个版本的源码
