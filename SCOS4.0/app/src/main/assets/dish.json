@@ -1,0 +1,106 @@
+{
+  "coldFoodList": [
+    {
+      "name": "话梅花生",
+      "Imageurl": 2131165345,
+      "order": false,
+      "price": 10,
+      "dishcount": 1,
+      "catgory":0
+    },
+    {
+      "name": "鸡汤豆腐",
+      "Imageurl": 2131165349,
+      "order": false,
+      "price": 12,
+      "dishcount": 1,
+      "catgory":0
+    },
+    {
+      "name": "三叶香拌豆劲",
+      "Imageurl": 2131165350,
+      "order": false,
+      "price": 8,
+      "dishcount": 1,
+      "catgory":0
+    }
+  ],
+  "hotFoodList": [
+    {
+      "name": "糖醋鱼",
+      "Imageurl": 2131165351,
+      "order": false,
+      "price": 35,
+      "dishcount": 1,
+      "catgory":1
+    },
+    {
+      "name": "红烧肉",
+      "Imageurl": 2131165352,
+      "order": false,
+      "price": 46,
+      "dishcount": 1,
+      "catgory":1
+    },
+    {
+      "name": "糖醋排骨",
+      "Imageurl": 2131165353,
+      "order": false,
+      "price": 45,
+      "dishcount": 1,
+      "catgory":1
+    }
+  ],
+  "seaFoodList": [
+    {
+      "name": "蛏子",
+      "Imageurl": 2131165354,
+      "order": false,
+      "price": 60,
+      "dishcount": 1,
+      "catgory":2
+    },
+    {
+      "name": "皮皮虾",
+      "Imageurl": 2131165355,
+      "order": false,
+      "price": 65,
+      "dishcount": 1,
+      "catgory":2
+    },
+    {
+      "name": "大闸蟹",
+      "Imageurl": 2131165356,
+      "order": false,
+      "price": 80,
+      "dishcount": 1,
+      "catgory":2
+    }
+  ],
+  "drinkingList": [
+    {
+      "name": "啤酒",
+      "Imageurl": 2131165346,
+      "order": false,
+      "price": 6,
+      "dishcount": 1,
+      "catgory":3
+    },
+    {
+      "name": "雪碧",
+      "Imageurl": 2131165347,
+      "order": false,
+      "price": 10,
+      "dishcount": 1,
+      "catgory":3
+    },
+    {
+      "name": "可乐",
+      "Imageurl": 2131165348,
+      "order": false,
+      "price": 9,
+      "dishcount": 1,
+      "catgory":3
+    }
+  ]
+}

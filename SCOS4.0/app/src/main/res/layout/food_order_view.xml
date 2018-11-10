@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodOrderView"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        app:tabIndicatorColor="@android:color/background_dark"
+        app:tabSelectedTextColor="@android:color/background_dark"
+        app:tabTextColor="@android:color/white"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:layout_below="@id/tablayout">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="菜品总数:"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/dish_count"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="订单总价:"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/dish_countprice"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_round"
+            android:focusable="false"
+            android:text="提交" />
+    </LinearLayout>
+
+
+
+
+    <!--本文来自 chriszht_163 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/qq_33425116/article/details/52599818?utm_source=copy-->
+
+</RelativeLayout>
